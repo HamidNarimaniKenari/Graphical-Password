@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="VisitorMP.master.cs" Inherits="VisitorMP" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Online Graphical Password</title>
+    <link rel="Stylesheet" type="text/css" href="App_Themes/Default/StyleSheet.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
+    <form id="form1" runat="server">
+    <center>
+        <table cellspacing="0" width="900">
+            <tr>
+                <td class="MainHeader">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#CCFF99">
+                    <center>
+                        <asp:Menu ID="Menu1" runat="server" BackColor="#F7F6F3" DynamicHorizontalOffset="2"
+                            Font-Bold="True" Font-Names="Tahoma" Font-Size="12px" ForeColor="#7C6F57" Orientation="Horizontal"
+                            StaticSubMenuIndent="10px">
+                            <StaticSelectedStyle BackColor="#5D7B9D" />
+                            <StaticMenuItemStyle BorderColor="#CCFF99" BorderStyle="Solid" BorderWidth="1px"
+                                HorizontalPadding="5px" VerticalPadding="2px" Width="100px" Height="25px" BackColor="#CC0066"
+                                ForeColor="White" />
+                            <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                            <DynamicMenuStyle BackColor="#F7F6F3" />
+                            <DynamicSelectedStyle BackColor="#5D7B9D" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                            <Items>
+                                <asp:MenuItem Text="Home" Value="Home"></asp:MenuItem>
+                                <asp:MenuItem Text="Users Register" Value="Users Register" NavigateUrl="~/UserRegister.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="User Login" Value="User Login" NavigateUrl="~/UserLogin.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Administrator" Value="Adminitrator" NavigateUrl="~/AdministratorLogin.aspx">
+                                </asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td height="300" style="vertical-align: top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#660066">
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
+    </center>
+    </form>
+</body>
+</html>

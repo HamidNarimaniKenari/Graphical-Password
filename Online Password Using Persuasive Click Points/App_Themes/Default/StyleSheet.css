@@ -1,0 +1,235 @@
+﻿body 
+{
+	
+}
+
+table.DetailsTable
+{
+	font-family:Verdana, Microsoft Sans Serif, Tahoma;
+	font-size: 13px;
+	color: #000000;
+	text-align: left;	
+}
+td.AlighRight
+{
+	text-align:right;
+}
+td.AlighLeft
+{
+	text-align:left;
+}
+table.ContentTable
+{
+	width: 100%;
+	border-spacing: 0px;
+}
+td.MainHeader
+{
+	font-family: Forte;
+	font-size: 35px;
+	font-weight: bold;
+	color: #FFFFFF;
+	height: 200px;
+	/*background-color: #6699FF;*/
+	background-image: url( 'Images/password.jpg' );
+}
+td.EssentialHeader
+{
+	
+}
+td.TitleHeader
+{
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	color: #003366;
+	background-image: url('Images/TitleHeader.gif' );
+	background-repeat: repeat-x;
+	height: 30px;
+}
+td.TitleHeader2
+{	
+	background-image: url('Images/Header1.jpg' );
+	background-repeat: repeat-x;
+	height: 25px;
+}
+.Errors
+{
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #FF0000;
+}
+.TextBox
+{
+	font-family: Tahoma;
+	font-size: 13px;
+}
+.InformationLabel
+{
+	font-family: Tahoma;
+	font-weight:bold;
+	font-size: 12px;
+	color:#CC0099;
+}
+.Button
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #CCCCCC;
+}
+.Button:hover
+{
+	background-color: #666666;
+	color: #FFFFFF;
+}
+	
+
+.Button2
+{
+	font-family: Tahoma;
+	font-size: 11px;	
+}
+.Button2:hover
+{
+	color: #FF0000;	
+}
+.LinkButton1
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration:none;
+	color: #808080;
+}
+.LinkButton1:hover
+{
+	color: #990000;
+	text-decoration:underline;
+}
+.LinkButton2
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.LinkButton2:hover
+{
+	color: #FFFF66;
+	text-decoration: underline;
+}
+.GridLinkButton1
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration:none;
+}
+.GridLinkButton1:hover
+{
+	color: #990000;
+	text-decoration:underline;
+}
+.Numbers
+{
+	font-family: Tahoma;
+	font-size: 13px;
+	text-align:right;
+}
+td.HeaderTD
+{
+	font-family: Tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	height: 20px;
+	color: #FFFFFF;
+	background-image: url( 'Images/header.gif' );
+}
+td.LoginHeaderTD
+{
+	font-family: Tahoma;
+	background-color: #990033;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	height: 20px;
+	color: #FFFFFF;
+	height:25px;
+}
+table.LoginTable
+{
+	border: 1px solid #999999;
+}
+td.SubHeaderTD
+{
+	font-family: Verdana;
+	background-color: #3385cc;
+	color:White;
+	font-size: 13px;
+	font-weight: bold;
+	text-align:center;
+	height:20px;
+}
+.HideColumn
+{
+	display:none;
+}
+.VisibleColumn
+{
+	display:block;
+}
+.Manditary
+{
+	color:Red;
+	font-weight:bold;
+	font-size:11px;
+	font-family:Verdana;
+}
+.GridViewFont
+{
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.Menu1
+{
+	text-indent: 15px;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #990033;
+	text-align:left;
+}
+.Menu1:hover
+{
+	background-color: #FF99CC;
+	color: #990033;
+	font-weight: bold;
+}
+.TopHeader
+{
+	color:White;
+	background-image: url(     'Images/header_large2.gif' );
+	background-repeat: repeat-x;
+	height: 30px;
+}
+.Footer
+{
+	background-image: url('Images/header_large2.gif' );
+	background-repeat: repeat-x;
+	height: 30px;
+}
+p
+{
+    font-family:Tahoma;
+    font-size:12px;
+    text-indent:20px;
+    text-align:justify;
+    line-height:20px;
+    width:600px;
+}
